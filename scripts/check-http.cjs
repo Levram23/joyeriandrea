@@ -14,7 +14,9 @@ const path=require('node:path');
   for(const file of files){
     const response=await fetch(new URL(file,origin));
     assert.equal(response.status,200,file);
-    assert(response.headers.get('content-type').startsWith(types[file.split('.').at(-1)]),`MIME: ${file}`);
+    const extension=file.split('.').at(-1);
+    const mime=(response.headers.get('content-type') || '').split(';')[0].trim();
+    assert(extension==='js' ? ['text/javascript','application/javascript'].includes(mime) : mime===types[extension],`MIME: ${file}`);
   }
   assert.equal((await fetch(new URL('pagina-inexistente',origin))).status,404);
   const config=JSON.parse(fs.readFileSync(path.join(__dirname,'../site.config.json'),'utf8'));
