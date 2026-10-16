@@ -4,6 +4,8 @@ Landing estática de Joyería Andrea: joyas, relojes, regalos y servicios en Cho
 
 Dominio principal previsto: **https://joyeriaandrea.pe/**. Repositorio: **https://github.com/Levram23/joyeriandrea**. Subir a GitHub no activa GitHub Pages ni publica por sí solo la web.
 
+Vista pública en Cloudflare Pages: **https://joyeriandrea.pages.dev/**. Integración con GitHub conectada a `main`, con despliegues automáticos. Al 16 de octubre de 2026, la delegación del dominio desde Punto.pe está pendiente de propagación; faltan la asociación de los dominios personalizados y su verificación HTTPS. La dirección temporal está excluida de indexación mediante `X-Robots-Tag: noindex`.
+
 ## Ejecutar y comprobar
 
 Usar Node.js 22 (definido en `.node-version`). No se necesita instalar paquetes.
