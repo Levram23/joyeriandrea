@@ -1,0 +1,99 @@
+{
+  "hero-joyas": {
+    "originalBytes": 2428545,
+    "variants": [
+      {
+        "path": "assets/hero-joyas-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 34912
+      },
+      {
+        "path": "assets/hero-joyas-800.webp",
+        "width": 800,
+        "height": 1000,
+        "bytes": 91978
+      },
+      {
+        "path": "assets/hero-joyas-1120.webp",
+        "width": 1120,
+        "height": 1400,
+        "bytes": 160472
+      }
+    ]
+  },
+  "joyas": {
+    "originalBytes": 2671352,
+    "variants": [
+      {
+        "path": "assets/joyas-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 49732
+      },
+      {
+        "path": "assets/joyas-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 113530
+      },
+      {
+        "path": "assets/joyas-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 189836
+      }
+    ]
+  },
+  "social": {
+    "path": "assets/social-joyas.jpg",
+    "width": 1200,
+    "height": 630
+  },
+  "relojes": {
+    "originalBytes": 2464504,
+    "variants": [
+      {
+        "path": "assets/relojes-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 45354
+      },
+      {
+        "path": "assets/relojes-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 96770
+      },
+      {
+        "path": "assets/relojes-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 152018
+      }
+    ]
+  },
+  "regalos": {
+    "originalBytes": 2706154,
+    "variants": [
+      {
+        "path": "assets/regalos-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 43782
+      },
+      {
+        "path": "assets/regalos-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 100874
+      },
+      {
+        "path": "assets/regalos-1120.webp",
+        "width": 1120,
+        "height": 630,
+        "bytes": 168476
+      }
+    ]
+  }
+}
